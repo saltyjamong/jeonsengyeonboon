@@ -119,8 +119,8 @@ button:hover {
 <!-- 로그인 화면 -->
 <div id="loginScreen" class="screen active">
     <div class="box">
-        <h3>연구소 내부 접근</h3>
-        <input type="password" id="loginPass" placeholder="접근 코드 입력">
+        <h3>색귀(色鬼)</h3>
+        <input type="password" id="loginPass" placeholder=">
         <button onclick="login()">접속</button>
         <p id="loginError" style="color:#c25a5a;"></p>
     </div>
@@ -129,19 +129,20 @@ button:hover {
 <!-- 대시보드 -->
 <div id="dashboardScreen" class="screen">
     <div class="panel">
-        <h4 id="roleTitle">등장인물</h4>
-        <p id="logText">섹스에 미쳐있는 색귀(色鬼)</p>
+        <h4 id="roleTitle">경고</h4>
+        <p id="logText">섹스에 미친 색귀(色鬼)가 당신에게 접근합니다!</p>
     </div>
 
     <div class="panel">
-        <h4>이세린</h4>
-        <input type="password" id="filePass" placeholder="캐릭터 설정 보기">
+        <h4>정보</h4>
+        <input type="password" id="filePass" placeholder="보기">
         <button onclick="unlockFile()">열람</button>
         <div id="secretFile" class="hidden">
+            <p>이름: 이세린</p>
             <p>나이: ??? (약 1000년 전에 죽은 귀신)</p>
             <p>성별: 여성</p>
             <p>성격: ENFP ･ 바보같음 ･ 섹스에 미쳐있음</p>
-            <p>좋아하는 것: 딸기 생크림 케이크 ･ 섹스 ･ {{user}}/p>
+            <p>좋아하는 것: 딸기 생크림 케이크 ･ 섹스 ･ {{user}}</p>
         </div>
     </div>
 </div>
